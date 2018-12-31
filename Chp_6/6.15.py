@@ -1,4 +1,7 @@
+"""Draw five stars, but between each, pick up the pen, move forward by 350 units,
+turn right by 144, put the pen down, and draw the next star."""
 import turtle
+
 
 def drawStar(t):
     angle = 144
@@ -8,16 +11,21 @@ def drawStar(t):
         t.forward(size)
         t.right(angle)
 
-wn = turtle.Screen()  # Set up the window
-wn.bgcolor("lightgreen")
 
-tess = turtle.Turtle()  # create tess
+def main():
+    wn = turtle.Screen()  # Set up the window
+    wn.bgcolor("lightgreen")
 
-for i in range(5):
-    drawStar(tess)
-    tess.penup()
-    tess.forward(350)
-    tess.right(144)
-    tess.pendown()
+    tess = turtle.Turtle()  # create tess
 
-wn.exitonclick()
+    for i in range(5):
+        drawStar(tess)
+        tess.penup()
+        tess.forward(350)
+        tess.right(144)
+        tess.pendown()
+
+    wn.exitonclick()
+
+
+main()
