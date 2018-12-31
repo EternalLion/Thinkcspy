@@ -18,6 +18,7 @@ def main():
 
     alex = turtle.Turtle()  # create alex
     alex.color("pink")
+    alex.pensize(3)
 
     for i in range(5):
         drawSquare(alex, 20)
