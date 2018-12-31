@@ -1,4 +1,4 @@
-"""Use the drawSquare function to print 5 pink squares seperate from each other.
+"""Use the drawSquare function to print 5 pink squares separate from each other.
 Assume each side is 20 units."""
 
 import turtle
