@@ -7,7 +7,7 @@ import math
 x = int(input("Please enter the circumference: "))
 y = int(input("Please enter the diameter: "))
 
-pi_approx = (x / y)
+pi_approx = x / y
 
 print("Your value is", pi_approx)
 print("Pi is equal to", math.pi)

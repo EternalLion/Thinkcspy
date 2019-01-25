@@ -1,7 +1,7 @@
-#Write a program that will convert degrees fahrenheit to degrees celsius.
+# Write a program that will convert degrees fahrenheit to degrees celsius.
 
-Fahrenheit = int(input('Please input degrees Fahrenheit: '))
+Fahrenheit = int(input("Please input degrees Fahrenheit: "))
 
-Celsius = ((Fahrenheit - 32) * .5556)
+Celsius = (Fahrenheit - 32) * 0.5556
 
-print (Celsius)
+print(Celsius)

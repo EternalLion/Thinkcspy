@@ -8,6 +8,7 @@ The year is also evenly divisible by 400. Then it is a leap year.
 
 Write a function that takes a year as a parameter and returns True if the year is a leap year, False otherwise."""
 
+
 def isLeap(year):
 
     if year % 4 == 0 and year % 400 == 0:
@@ -16,5 +17,6 @@ def isLeap(year):
         return False
     else:
         return False
+
 
 print(isLeap(800))

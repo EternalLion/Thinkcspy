@@ -1,7 +1,6 @@
 import turtle
 
 
-
 def drawSquare(t, sz):
     """Make turtle t draw a square of sz."""
     wn = turtle.Screen()

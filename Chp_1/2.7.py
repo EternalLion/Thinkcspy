@@ -8,6 +8,6 @@ r = 0.08
 
 t = int(input("Please assign an amount of years for the formula:"))
 
-final = P * ( ((1 + (r/n)) ** (n * t)) )
+final = P * (((1 + (r / n)) ** (n * t)))
 
-print ("The final amount after", t, "years is", final)
+print("The final amount after", t, "years is", final)

@@ -13,6 +13,6 @@ waiting_time_int = int(waiting_time_str)
 
 hours = waiting_time_int + current_time_int
 
-alarm = (hours % 24)
+alarm = hours % 24
 
-print('Your alarm will go off at', alarm, 'hundred hours.')
+print("Your alarm will go off at", alarm, "hundred hours.")

@@ -7,5 +7,4 @@ import math
 x = int(input("Please give the value of one side: "))
 y = int(input("Please give the value of the second side: "))
 
-print("The hypotenuse of x and y is: ", math.hypot(x,y))
-
+print("The hypotenuse of x and y is: ", math.hypot(x, y))

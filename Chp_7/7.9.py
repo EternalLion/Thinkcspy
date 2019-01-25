@@ -12,6 +12,7 @@ def is_even(n):
 n = 4
 print("Integer:", is_even(n))
 
+
 def is_odd(n):
 
     if is_even(n):
