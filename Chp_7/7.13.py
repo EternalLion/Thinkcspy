@@ -20,9 +20,9 @@ def Easter():
     year = int(input("Please input the year in question: "))
 
     if year <= 1900:
-        return "Invalid date"
+        print('Invalid date')
     elif year >= 2099:
-       return "Invalid date"
+       print('Invalid date')
 
     a = year % 19
     b = year % 4
@@ -31,7 +31,8 @@ def Easter():
     e = (2 * b + 4 * c + 6 * d + 5) % 7
     date = 22 + d + e
 
-    print(date)
+    if year == 1954 or year == 1981 or year == 2049 or year == 2076:
+        date -= 7
+    return date
 
-
-Easter()
+print(Easter())
