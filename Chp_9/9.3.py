@@ -9,6 +9,13 @@ Your text contains 243 alphabetic characters, of which 109 (44.8%) are 'e'"""
 quote = "May your heart be your guiding key."
 
 def length():
-    print(len(quote))
+    #letter = "e"
+    number = 0
 
-length()
+    for i in quote:
+        if i == 'e':
+            number = number + 1
+    return number
+
+
+print('Your text contains', (len(quote)), 'alphabetic characters, of which', length(), '(',((length() / len(quote) * 100)),')', 'are e.')
