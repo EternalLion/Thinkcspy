@@ -3,12 +3,12 @@
 
 import random
 
-myList = []
+myList = [] #initialize list
 
 for i in range(100):
     myList.append(random.randint(0, 1001))
 
-max_number = myList[0]
+max_number = myList[0] #set initial max number
 
 print(myList)
 
